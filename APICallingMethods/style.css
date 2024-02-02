@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    min-height: 100%;
+    width: 100%;
+    padding: 2vw;
+    background-color: black;
+}
+
+.post{
+    color: white;
+    padding: 1vw 2vw;
+    margin: 1vw 4vw;
+    background-color: rgba(240, 255, 255, 0.362);
+}
+

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+:root {
+    --bg-color : red;
+    --text-color: blue;
+}
+
+[data-theme = "dark"]{
+    --bg-color: green;
+}
+
+[data-theme = "green"]{
+    --bg-color : blue;
+}
+
+.main.hu{
+    background-color: red;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+}
+
+button{
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+}
